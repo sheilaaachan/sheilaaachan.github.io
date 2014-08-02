@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Josefin Slab Thin'), local('JosefinSlab-Thin'), url(http://fonts.gstatic.com/s/josefinslab/v5/etsUjZYO8lTLU85lDhZwUjUBvlJYYQI_sDPKrlKoP9Q.woff2) format('woff2'), url(http://fonts.gstatic.com/s/josefinslab/v5/etsUjZYO8lTLU85lDhZwUtkWwCWWHt2eabdCtA6ddDc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(http://fonts.gstatic.com/s/josefinslab/v5/46aYWdgz-1oFX11flmyEfRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2'), url(http://fonts.gstatic.com/s/josefinslab/v5/46aYWdgz-1oFX11flmyEfaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Slab Bold'), local('JosefinSlab-Bold'), url(http://fonts.gstatic.com/s/josefinslab/v5/NbE6ykYuM2IyEwxQxOIi2MhHwsiXhsDb0smKjAA7Bek.woff2) format('woff2'), url(http://fonts.gstatic.com/s/josefinslab/v5/NbE6ykYuM2IyEwxQxOIi2BAPw1J91axKNXP_-QX9CC8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Source Code Pro ExtraLight'), local('SourceCodePro-ExtraLight'), url(http://fonts.gstatic.com/s/sourcecodepro/v5/leqv3v-yTsJNC7nFznSMqYAPdqzPmKFFIYQ-46z3JxY.woff2) format('woff2'), url(http://fonts.gstatic.com/s/sourcecodepro/v5/leqv3v-yTsJNC7nFznSMqS-IiwWNzQT_LXAtr-Ee9Pw.woff) format('woff');
+}
