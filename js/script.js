@@ -6,6 +6,11 @@ $(document).ready(function(){
     });
 	});
 
+	$('.aboutme-selfie').hover(function(){
+		$('#aboutme-selfie01').toggle();
+		$('#aboutme-selfie02').toggle();
+	});
+
 	$('.project-nav-link').bind("click", function() {
 	    $("img.lazy").trigger("bam");
 	});
