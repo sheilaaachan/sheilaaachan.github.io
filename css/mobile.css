@@ -1,4 +1,4 @@
-body,html,section#title,section#aboutme {height: 100%;}
+body,html,section#title {height: 100%;}
 h1,h2,h3,h4,h5,h6,p{
 	font-family: 'Lato','HelveticaNeue-UltraLight',sans-serif;
 	font-weight: 300;
@@ -80,7 +80,7 @@ div#myname{display: inline-block;}
 
 /*-------------- ABOUT ME --------------*/
 
-section#aboutme{background-color: #51FFCE;padding: 0;position: relative;overflow: hidden;}
+section#aboutme{min-height: 100%;background-color: #51FFCE;padding: 0;position: relative;overflow: hidden;}
 #about-h{color: #6A026A; padding: 6% 5% 5% 5%;}
 #about-h .bold{color:#ff2dc0;}
 #about-p{display: none;}
@@ -191,7 +191,7 @@ ul#content-grid li{
 }
 
 h3.content-heading{padding-bottom: 10px;}
-h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 4em;font-weight: 400;}
+h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;font-size: 2.8em;letter-spacing: -0.05em; font-weight: 400;}
 table.content-table tr td:first-child p{margin-right: 10px;}
 table.content-table td p{padding: 2% 0;}
 
@@ -335,7 +335,7 @@ li.photo-contain{text-align: right; margin-bottom: 3%;}
 #pho .banner { 
 	position: relative; 
 	overflow: scroll; 
-	width: 110%; 
+	width: 100%; 
 	height: 500px; 
 	min-height: 500px;
 }
