@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	if ( $(window).width() > 640) {   
+	if ( $(window).width() > 1000) {   
 		$('.aboutme-selfie').hover(
 			function(){
 				$('#aboutme-selfie01').toggle();
