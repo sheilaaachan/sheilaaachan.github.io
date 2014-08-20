@@ -91,13 +91,13 @@ section#aboutme{min-height: 100%;background-color: #51FFCE;padding: 0;position: 
 	right: 0;
 	top: 0;
 	height: 100%;
-	width: 256px;
+	width: 192px;
 	background-color: #fff;
 	position: absolute;
 }
-ul#icons{position: absolute;right: 0; top:0;}
+ul#icons{position: absolute;right: 32px; top:48px;}
 ul#icons li{margin:0;padding:0;list-style:none;float: left;}
-ul#icons li, ul#icons a{height:256px; width:256px; display:inline-block; margin: 5% 0;}
+ul#icons li, ul#icons a{height:128px; width:128px; display:inline-block; margin: 32px;}
 ul#icons .row1,
 ul#icons .row2,
 ul#icons .row3,
@@ -106,7 +106,7 @@ ul#icons .row5,
 ul#icons .row6{
 	right: 0;
 }
-/*div#triangle{
+div#triangle{
 	width: 0;
 	height: 0;
 	border-top: 48px solid #fff;
@@ -114,10 +114,10 @@ ul#icons .row6{
 	border-bottom: 48px solid transparent;
 	border-left: 48px solid transparent;
 	position: absolute;
-	right: 0;
+	right: 192px;
 	top: 0;
 }
-div#triangle2{
+/*div#triangle2{
 	width: 0;
 	height: 0;
 	border-top: 48px solid transparent;
@@ -130,11 +130,11 @@ div#triangle2{
 }*/
 
 #facebook a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 0;}
-#location a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 256px;}
-#linkedin a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 512px;}
-#email a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 768px;}
-#twitter a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 1024px;}
-#instagram a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 1280px;}
+#location a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 128px;}
+#linkedin a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 256px;}
+#email a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 384px;}
+#twitter a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 512px;}
+#instagram a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 640px;}
 
 .aboutme-selfie{
 	float: left;
