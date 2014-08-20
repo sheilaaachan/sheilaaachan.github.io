@@ -1,16 +1,16 @@
 body,html,section#title,section#aboutme {height: 100%;}
 h1,h2,h3,h4,h5,h6,p{
 	font-family: 'Lato','HelveticaNeue-UltraLight',sans-serif;
-	font-weight: 100;
+	font-weight: 300;
 	color: #FFFFFF;
 }
 h1{font-size: 4.5em;}
-h2{font-size: 2.5em;}
-h3{font-size: 2em;}
+h2{font-size: 4em;}
+h3{font-size: 3em;}
 h4{font-size: 2em;}
 h5{font-size: 1.5em;}
 h6{font-size: 0.5em;}
-p{font-size: 0.8em; line-height: 1.3em;}
+p{font-size: 1.5em; line-height: 1em;}
 a{text-decoration: none;color: #FFFFFF;}
 hr{
 	border: 0;
@@ -25,7 +25,7 @@ span.josefin{font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em}
 h4 span.josefin{font-size: 0.7em;}
 h1.heading{padding: 10% 5% 2% 5%;}
 h4.subheading{padding-bottom: 5%;}
-h4.description{padding-bottom: 5%; width: 60%}
+h4.description{padding-bottom: 5%; width: 80%}
 h4.subheading2{padding: 10px;}
 div.linktriangle{
 	width: 0;
@@ -80,7 +80,7 @@ div#myname{display: inline-block;}
 
 /*-------------- ABOUT ME --------------*/
 
-section#aboutme{background-color: #51FFCE;padding: 0;position: relative;}
+section#aboutme{background-color: #51FFCE;padding: 0;position: relative;overflow: hidden;}
 #about-h{color: #6A026A; padding: 6% 5% 5% 5%;}
 #about-h .bold{color:#ff2dc0;}
 #about-p{display: none;}
@@ -145,7 +145,7 @@ div#triangle2{
 .aboutme-selfie{
 	float: left;
 	margin: 0 3% 3% 0;
-	width: 55%;}
+	width: 60%;}
 #aboutme-selfie01,
 #aboutme-selfie02{
 	display: none;
@@ -155,14 +155,13 @@ div#triangle2{
 	width: 85%;
 	vertical-align: top;
 	letter-spacing: -0.05em; 
-	font-size: 0.9em;
 }
 span.keyword{
-	border-width: 1.7px;
+	border-width: 3px;
 	border-style: solid;
 	border-color: #ffffff;
 	margin: 2px;
-	padding: 2px 4px;
+	padding: 0 4px;
 	font-weight: 500;
 	display: inline-block;
 }
@@ -177,16 +176,16 @@ span.keyword:active{
 section#content{background-color: #00DFFF;padding: 0; min-height: 100%;}
 #content-h{color: #6A026A; padding: 5%;}
 div.overview{display: none;}
-img.icon{padding: 20% 0 8% 0; max-height: 70px;}
+img.icon{padding: 20% 0 8% 0; max-width: 70%;}
 .clear:before, .clear:after {content: " "; display: table;}
 .clear:after {clear: both;}
 ul#content-grid{
 	width: 75%;
-	padding: 1% 0;
+	padding: 5% 0;
 }
 ul#content-grid li{
-	width: 250px;
-	height: 250px;
+	width: 80%;
+	height: 80%;
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
@@ -194,7 +193,7 @@ ul#content-grid li{
 }
 
 h3.content-heading{padding-bottom: 10px;}
-h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 0.7em;}
+h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 1.5em;}
 table.content-table tr td:first-child p{margin-right: 10px;}
 table.content-table td p{padding: 2% 0;}
 
@@ -213,7 +212,7 @@ section#jev{min-height:100%; background-color: #32E6BF}
 section#wal{min-height:100%; background-color: #FF6666}
 section#pho{min-height:100%; background-color: #1e1e1e}
 
-div.project-contain{padding: 8% 15%;}
+div.project-contain{padding: 8% 0;}
 
 div.project-content{display: none; position: relative;}
 
@@ -236,10 +235,127 @@ li.project-nav-link:hover, li.selected{
 
 img.project-heading-image {
 	width: 100%;
-	max-width: 1000px;
+	max-width: 100%;
 	z-index: 0;
 	position: absolute;
 	overflow: hidden;
 }
+
+/*-------------- PLAN --------------*/
+
+.project-content{
+	position: relative;
+	
+}
+
+#pla .banner { 
+	position: relative; 
+	overflow: scroll; 
+	width: 100%; 
+	height: 500px;
+	min-height: 500px;
+}
+
+#pla-1-text,
+#pla-2-text,
+#pla-3-text{
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;
+}
+span.color{
+	height: 15px;
+	width: 8px;
+	display: inline-block;
+}
+span#a{background-color: #F7199E;}
+span#b{background-color: #d3f819;}
+
+span#c{background-color: #f20924;}
+span#d{background-color: #4a0b12;}
+span#e{background-color: #06d9fc;}
+span#f{background-color: #030809;}
+
+
+/*-------------- PCF --------------*/
+
+#pcf .banner {
+	position: relative; 
+	overflow: scroll; 
+	width: 100%; 
+	height: 500px;
+	min-height: 500px;
+}
+
+#pcf-2-text,
+#pcf-3-text{
+	position: absolute;
+	width: 40%;
+	right: 0;
+	top: 0;
+}
+
+/*-------------- JEV --------------*/
+#jev .banner {
+	position: relative; 
+	overflow: scroll; 
+	width: 100%; 
+	height: 500px;
+	min-height: 500px;
+}
+#jev-4-text,
+#jev-5-text,
+#jev-6-text{
+	position: absolute;
+	width: 40%;
+	right: 0;
+	top: 0;
+}
+
+/*-------------- WALMART --------------*/
+
+#wal .banner { 
+	position: relative; 
+	overflow: scroll; 
+	width: 100%; 
+	height: 400px; 
+	min-height: 500px;
+}
+
+#wal-1-text,
+#wal-2-text,
+#wal-4-text,
+#wal-3-text{
+	position: absolute;
+	width: 30%;
+	right: 0;
+	top: 0;
+}
+
+/*-------------- PHOTO --------------*/
+
+p.photo-title{letter-spacing: 3px; line-height: 2.2em;}
+p.photo-detail{font-size: 0.8em; line-height: 2.2em;}
+li.photo-contain{text-align: right; margin-bottom: 3%;}
+.photo{
+	display: inline-block;
+	margin-bottom: -5%;
+}
+#pho .banner { 
+	position: relative; 
+	overflow: scroll; 
+	width: 110%; 
+	height: 500px; 
+	min-height: 500px;
+}
+.photo-text{
+	display: inline-block;
+	margin: 4% 4% 4% 0;
+}
+
+
+
+
 
 
