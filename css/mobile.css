@@ -23,8 +23,8 @@ hr{
 span.bold{font-weight: 700;}
 span.josefin{font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-weight: 400;}
 /*h4 span.josefin{font-size: 0.7em;}*/
-h1.heading{padding: 10% 0 2% 0; overflow: hidden;}
-h4.subheading{padding-bottom: 5%;}
+h1.heading{padding: 20% 0 5% 0; overflow: hidden;}
+h4.subheading{padding-bottom: 12%;}
 h4.description{padding-bottom: 5%; width: 80%}
 h4.subheading2{padding: 10px;}
 div.linktriangle{
