@@ -21,9 +21,9 @@ hr{
   background-image:      -o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.3), rgba(255,255,255,0)); 
 }
 span.bold{font-weight: 700;}
-span.josefin{font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em}
+span.josefin{font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-weight: 400;}
 h4 span.josefin{font-size: 0.7em;}
-h1.heading{padding: 10% 5% 2% 5%;}
+h1.heading{padding: 10% 0 2% 0; overflow: hidden;}
 h4.subheading{padding-bottom: 5%;}
 h4.description{padding-bottom: 5%; width: 80%}
 h4.subheading2{padding: 10px;}
@@ -174,18 +174,16 @@ span.keyword:active{
 /*-------------- CONTENT (ICONS) --------------*/
 
 section#content{background-color: #00DFFF;padding: 0; min-height: 100%;}
-#content-h{color: #6A026A; padding: 5%;}
+#content-h{color: #6A026A; padding: 5% 0;}
 div.overview{display: none;}
 img.icon{padding: 20% 0 8% 0; max-width: 70%;}
 .clear:before, .clear:after {content: " "; display: table;}
 .clear:after {clear: both;}
 ul#content-grid{
-	width: 75%;
+	width: 80%;
 	padding: 5% 0;
 }
 ul#content-grid li{
-	width: 80%;
-	height: 80%;
 	display: inline-block;
 	text-align: center;
 	overflow: hidden;
@@ -193,7 +191,7 @@ ul#content-grid li{
 }
 
 h3.content-heading{padding-bottom: 10px;}
-h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 4em;}
+h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 4em;font-weight: 400;}
 table.content-table tr td:first-child p{margin-right: 10px;}
 table.content-table td p{padding: 2% 0;}
 
@@ -221,7 +219,7 @@ ul.project-nav-link-contain{
 }
 li.project-nav-link{
 	display: inline-block;
-	border: 2px solid rgba(255,255,255,0.3);
+	border: 4px solid rgba(255,255,255,0.3);
 	margin: 2%;
 	cursor: pointer;
 	-webkit-transition: opacity,background-color 0.5s ease-in-out;
