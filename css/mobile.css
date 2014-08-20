@@ -61,20 +61,20 @@ div#myname{display: inline-block;}
 	letter-spacing: 1px;
 	position: fixed;
 	left: 0;
-	top: 31.5%;
+	top: 21%;
 	z-index: 101;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	font-weight: 300;
   width: 10px;
 }
 #ribbon{
 	position: fixed;
 	left: 0;
-	top: 30%;
+	top: 20%;
 	z-index: 102;
-	border: 1.2em solid #e74c3c;
+	border: 2.2em solid #e74c3c;
 	border-right-color: transparent;
-	width: 0px;
+	width: 130px;
   opacity: 0.5;
 }
 
@@ -91,13 +91,13 @@ section#aboutme{min-height: 100%;background-color: #51FFCE;padding: 0;position: 
 	right: 0;
 	top: 0;
 	height: 100%;
-	width: 48px;
+	width: 256px;
 	background-color: #fff;
 	position: absolute;
 }
-ul#icons{position: absolute;right: 0;top: 48px;}
+ul#icons{position: absolute;right: 0; top:0;}
 ul#icons li{margin:0;padding:0;list-style:none;float: left;}
-ul#icons li, ul#icons a{height:48px; width:48px; display:inline-block; margin: 10% 0;}
+ul#icons li, ul#icons a{height:256px; width:256px; display:inline-block; margin: 5% 0;}
 ul#icons .row1,
 ul#icons .row2,
 ul#icons .row3,
@@ -106,7 +106,7 @@ ul#icons .row5,
 ul#icons .row6{
 	right: 0;
 }
-div#triangle{
+/*div#triangle{
 	width: 0;
 	height: 0;
 	border-top: 48px solid #fff;
@@ -127,32 +127,25 @@ div#triangle2{
 	position: absolute;
 	right: 0;
 	bottom: 0;
-}
+}*/
 
-#facebook a{width: 48px; height: 48px; background: url(../img/icons.png) 0 0;}
-#location a{width: 48px; height: 48px; background: url(../img/icons.png) -48px 0;}
-#linkedin a{width: 48px; height: 48px; background: url(../img/icons.png) -96px 0;}
-#email a{width: 48px; height: 48px; background: url(../img/icons.png) -144px 0;}
-#twitter a{width: 48px; height: 48px; background: url(../img/icons.png) -192px 0;}
-#instagram a{width: 48px; height: 48px; background: url(../img/icons.png) -240px 0;}
-#facebook a:active{background: url(../img/icons.png) 0 -48px;}
-#location a:active{background: url(../img/icons.png) -48px -48px;}
-#linkedin a:active{background: url(../img/icons.png) -96px -48px;}
-#email a:active{background: url(../img/icons.png) -144px -48px;}
-#twitter a:active{background: url(../img/icons.png) -192px -48px;}
-#instagram a:active{background: url(../img/icons.png) -240px -48px;}
+#facebook a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 0;}
+#location a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 256px;}
+#linkedin a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 512px;}
+#email a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 768px;}
+#twitter a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 1024px;}
+#instagram a{width: 256px; height: 256px; background: url(../img/icons-mobile.png) 0 1280px;}
 
 .aboutme-selfie{
 	float: left;
 	margin: 0 3% 3% 0;
-	width: 60%;}
-#aboutme-selfie01,
+	width: 65%;}
 #aboutme-selfie02{
 	display: none;
 }
 #aboutme-desc{
-	display: inline-block;
-	width: 85%;
+	display: block;
+	width: 70%;
 	vertical-align: top;
 	letter-spacing: -0.05em; 
 	
