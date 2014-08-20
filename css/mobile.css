@@ -4,13 +4,13 @@ h1,h2,h3,h4,h5,h6,p{
 	font-weight: 300;
 	color: #FFFFFF;
 }
-h1{font-size: 4.5em;}
-h2{font-size: 4em;}
-h3{font-size: 3em;}
-h4{font-size: 2em;}
+h1{font-size: 6em;}
+h2{font-size: 5.5em;}
+h3{font-size: 5em;}
+h4{font-size: 4em;}
 h5{font-size: 1.5em;}
 h6{font-size: 0.5em;}
-p{font-size: 1.5em; line-height: 1em;}
+p{font-size: 4em;}
 a{text-decoration: none;color: #FFFFFF;}
 hr{
 	border: 0;
@@ -193,7 +193,7 @@ ul#content-grid li{
 }
 
 h3.content-heading{padding-bottom: 10px;}
-h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 1.5em;}
+h4.content-subheading{padding-bottom: 15px;font-family: 'Source Code Pro', sans-serif;letter-spacing: -0.05em; font-size: 4em;}
 table.content-table tr td:first-child p{margin-right: 10px;}
 table.content-table td p{padding: 2% 0;}
 
@@ -259,10 +259,8 @@ img.project-heading-image {
 #pla-1-text,
 #pla-2-text,
 #pla-3-text{
-	position: absolute;
-	width: 50%;
-	right: 0;
-	top: 0;
+	position: block;
+	width: 90%;
 }
 span.color{
 	height: 15px;
@@ -290,10 +288,8 @@ span#f{background-color: #030809;}
 
 #pcf-2-text,
 #pcf-3-text{
-	position: absolute;
-	width: 40%;
-	right: 0;
-	top: 0;
+	position: block;
+	width: 90%;
 }
 
 /*-------------- JEV --------------*/
@@ -307,10 +303,8 @@ span#f{background-color: #030809;}
 #jev-4-text,
 #jev-5-text,
 #jev-6-text{
-	position: absolute;
-	width: 40%;
-	right: 0;
-	top: 0;
+	position: block;
+	width: 90%;
 }
 
 /*-------------- WALMART --------------*/
@@ -327,10 +321,8 @@ span#f{background-color: #030809;}
 #wal-2-text,
 #wal-4-text,
 #wal-3-text{
-	position: absolute;
-	width: 30%;
-	right: 0;
-	top: 0;
+	position: block;
+	width: 90%;
 }
 
 /*-------------- PHOTO --------------*/
