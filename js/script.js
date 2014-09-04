@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	if ( $(window).width() > 1000) {   
-		$('.aboutme-selfie').hover(
-			function(){
-				$('#aboutme-selfie01').toggle();
-				$('#aboutme-selfie02').toggle();
-			});
+		// $('.aboutme-selfie').hover(
+		// 	function(){
+		// 		$('#aboutme-selfie01').toggle();
+		// 		$('#aboutme-selfie02').toggle();
+		// 	});
 		
 		$('#myname').hover(
 			function(){
