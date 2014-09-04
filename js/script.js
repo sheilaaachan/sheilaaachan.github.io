@@ -72,7 +72,7 @@ $(document).ready(function(){
 	$('ul.project-nav-link-contain li').not('.ext-link').click(function(){
 		$('.project-nav-link').not(this).removeClass('selected');
 		$('.project-content').not('#'+this.id+'-content').hide();
-		$('.'+this.id.substring(0,3)+'-placeholder').hide();
+		// $('.'+this.id.substring(0,3)+'-placeholder').hide();
 		$(this).toggleClass('selected');
 		$('#'+this.id+'-content').toggle();
 	});
