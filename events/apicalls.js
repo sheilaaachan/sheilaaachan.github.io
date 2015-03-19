@@ -10,8 +10,11 @@ $('#user_selector').change(function(){
 })
 
 
+});
+
+
 function doctor_responded(){
-	alert('hi Jon');
+    alert('hi Jon');
     $.post("https://auth.exacttargetapis.com/v1/requestToken",
     {
         "clientId": "fmw794kau539jhbadbhg89x9",
@@ -21,10 +24,3 @@ function doctor_responded(){
         alert("Data: " + data + "\nStatus: " + status);
     });
 }
-
-
-function appointment_made(){
-	 alert('Hi Priyank');
-}
-
-});
