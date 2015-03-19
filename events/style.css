@@ -1,0 +1,45 @@
+html{
+	padding: 3%;
+}
+
+h1,h3,h4{
+	font-family: 'helvetica-neue',sans-serif;
+	color: #474747;
+}
+h1,h3, select{
+	color: #0091C7;
+}
+select{
+	font-weight: bold;
+	font-size: 1.17em;
+}
+h4{
+	font-weight: 100;
+	font-size: 14px;
+	text-align: right;
+}
+
+button{
+	font-family: 'helvetica-neue', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: #0091C7;
+	border: #000000;
+	padding: 10px;
+	margin: 10px;
+	width: 150px;
+	border-radius: 2px;
+}
+button:hover{
+	background-color: #006F99;
+	cursor: pointer;
+}
+.button-label{
+	width: 220px;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.button-div{
+	width: 50%;
+}
